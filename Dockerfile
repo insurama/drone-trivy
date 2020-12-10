@@ -8,3 +8,4 @@ RUN apk update && \
   rm -rf /var/cache/apk/*
 
 COPY trivy /usr/local/bin/
+# DONE
